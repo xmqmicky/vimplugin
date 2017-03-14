@@ -73,3 +73,7 @@
    向右移动，光标放在“background_process”接口上，输入【ctrl+shift+-】后，马上按【c】，出现调用此接口的接口列表。若未打开，输入【:cw】打开。
    
    normal模式下输入【:qa】退出编辑。
+   
+# 参考链接：
+
+http://blog.csdn.net/namecyf/article/details/7787479
