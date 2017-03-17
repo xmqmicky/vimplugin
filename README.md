@@ -49,7 +49,7 @@
    normal模式输入【:cs add ./cscope.out ./】			// 引入cscope
    
    上述可直接按【F4键】引入cscope，但其文件需要在外面cscope -Rbkq生成
-  
+   
    normal模式输入【wm】						// 打开或关闭文件列表及符号列表
    
    normal模式输入【:e ant.c】						// 打开ant.c
