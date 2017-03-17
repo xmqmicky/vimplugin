@@ -23,10 +23,12 @@
   make;
   
   sudo make install;
-   
+  
+  ps. 也可以用apt-get install 来安装ctags，但我们下面要用ctags工程做练习。
+   
 4. 安装 vim plugins:
 
-  tar zxvf vimplugin.tgz -C ~/;
+  ./install.sh;
    
 # 验证及用法:
 
@@ -36,14 +38,18 @@
    
    ctags -R;            // 生成tags文件。
    
-   cscope -Rbq;         // 生成cscope.* in out 文件
+   cscope -Rbkq;         // 生成cscope.* in out 文件
    
    vim main.c;          // 打开main.c 
       
    normal模式输入【:set tags=./tags】				// 引入tags
    
+   上述可直接按【F5键】生成并引入tags
+   
    normal模式输入【:cs add ./cscope.out ./】			// 引入cscope
    
+   上述可直接按【F4键】引入cscope，但其文件需要在外面cscope -Rbkq生成
+  
    normal模式输入【wm】						// 打开或关闭文件列表及符号列表
    
    normal模式输入【:e ant.c】						// 打开ant.c
