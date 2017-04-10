@@ -26,6 +26,9 @@ elseif $CSCOPE_DB != "" " 否则只要环境变量CSCOPE_DB不为空，则添加
 endif
 set csverb
 
+map <F9> :b#<CR>
+imap <F9> <ESC>:b#<CR>
+
 map <F4> :cs add ./cscope.out .<CR><CR><CR> :cs reset<CR>
 imap <F4> <ESC>:cs add ./cscope.out .<CR><CR><CR> :cs reset<CR>
 
