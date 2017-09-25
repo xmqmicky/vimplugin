@@ -9,7 +9,7 @@ cp -rf $shellPath/.tmux.conf ~/
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 mkdir -p ~/.oh-my-zsh/plugins/incr
 cp $shellPath/incr-0.2.zsh ~/.oh-my-zsh/plugins/incr/
-echo "source ~/.oh-my-zsh/plugins/incr/incr-0.2.zsh" > ~/.zshrc
+#echo "source ~/.oh-my-zsh/plugins/incr/incr-0.2.zsh" >> ~/.zshrc
 
 echo cp done
 
