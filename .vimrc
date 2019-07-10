@@ -1,6 +1,13 @@
 set number
 set ts=4
 set expandtab
+set tabstop=4
+set shiftwidth=4
+set autoindent
+
+set ruler
+set incsearch
+set hls
 
 syntax enable
 syntax on
