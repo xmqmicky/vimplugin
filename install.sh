@@ -5,6 +5,7 @@ echo cd $shellPath
 
 cp -rf $shellPath/.vim* ~/
 cp -rf $shellPath/.tmux.conf ~/
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 mkdir -p ~/.oh-my-zsh/plugins/incr
